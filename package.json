@@ -49,6 +49,9 @@
     "*.{js,jsx,ts,tsx}": [
       "eslint --fix",
       "prettier --write --ignore-unknown"
+    ],
+    "*.{json,css,md,html,yml}": [
+      "prettier --write --ignore-unknown"
     ]
   }
 }

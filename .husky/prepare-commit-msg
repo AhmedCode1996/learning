@@ -1,7 +1,0 @@
-MSG_FILE="$1"
-COMMIT_SOURCE="$2"
-
-# Only suggest message if one isn't provided
-if [ -z "$COMMIT_SOURCE" ]; then
-  node ./scripts/ai-commit-suggester.js "$MSG_FILE" "$COMMIT_SOURCE" || true
-fi
