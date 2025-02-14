@@ -1,0 +1,2 @@
+node ./scripts/ai-commit-suggester.js "$1"
+pnpm exec commitlint --edit "$1"
