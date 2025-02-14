@@ -9,7 +9,7 @@ import jsxA11y from "eslint-plugin-jsx-a11y";
 import eslintConfigPrettier from "eslint-config-prettier";
 
 export default tseslint.config(
-  { ignores: ["dist"] },
+  { ignores: ["dist", "**/routeTree.gen.ts"] },
   {
     extends: [
       js.configs.recommended,
